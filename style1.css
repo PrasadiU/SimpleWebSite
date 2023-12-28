@@ -1,0 +1,35 @@
+body{
+	background-color:#FAFAD2;
+	
+}
+/*ul{
+	list-style:none;
+	margin:0px;
+}*/
+li{
+	display:inline;
+	float:bottom;
+	
+}
+a {
+    color: black;
+}
+a:link{
+	display:block;
+	/*background-color:pink;*/
+	width:100px;
+	/*border:green;*/
+	
+	
+}
+a:hover{
+	background-color:white;
+}
+a:active{
+	background-color:red;
+}
+select:focus{
+	background-color: #55FFCC;
+	color:black;
+}	
+	

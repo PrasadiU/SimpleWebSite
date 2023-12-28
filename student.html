@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="student.css"rel="stylesheet"type="text/css">
+		<script src="Java.js" >
+		
+		</script>
+	</head>
+		<body onload="setFocus();">
+			<h2 align="center">Student Registration details</h2>
+		
+		
+			<form name="data_form"method="post">
+			<table>
+			<tr><td>Index Number:<span style="color:red">*</span></td><td><input type="text"id="txtindexno"name="id_number"/></td></tr>
+			<!--<tr><td>Number 1:</td><td><input type="number" id="txtnumber1" name="txtnum1"/></td></tr>-->
+			<tr><td>Student Name:</td><td><input type="text"name="name" size="40"/></td></tr>
+			
+			
+			<tr><td>Date Of Birth:</td><td><input type="date" name="date"size="40" /></td></tr>
+			
+			
+			<tr><td>Address:</td><td><input type="text" textarea name="address" rows="1" cols="40"></textarea></td></tr>
+			
+			
+			<tr><td>Gender:</td><td><input type="radio" name="gender" value="M"checked/>Male
+					<input type="radio" name="gender" value="F"/>Female</td></tr>
+					
+			<tr><td>Extra Activities:</td><td><input type="checkbox"name="Activity[]"value="Music checked"/>Music
+						<input type="checkbox"name="Activity[]"value="Dancing"/>Dancing
+						<input type="checkbox"name="Activity[]"value="Art"/>Art
+						<input type="checkbox"name="Activity[]"value="Sport"/>Sport</td></tr>
+			
+			<tr><td>Telephone Number :<span style="color:red">*</span></td><td><input type="text" name="tp"id="txttelno" ></td></tr>
+			
+			<tr><td>Grade:</td><td> <select name="grade">
+							<option value="1">01</option>
+							<option value="2">02</option>
+							<option value="3">03</option>
+							<option value="4">04</option>
+							<option value="5">05</option>
+							<option value="6">06</option>
+							<option value="7">07</option>
+							<option value="8">08</option>
+							<option value="9">09</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+						</select></td></tr>
+			
+			
+			
+			</table>
+			<input type="submit" name="sub" value="Submit"onclick="display();display1()"  />
+			<input type="Reset" name="res" value="Reset"/>
+			
+			</form>
+			
+		</body>
+	
+</html>
